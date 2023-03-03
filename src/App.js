@@ -32,7 +32,7 @@ function App() {
         <Typography sx={{ fontFamily: "ui-rounded" }} variant="h3">
           Image Gallery
         </Typography>
-        <div style={{ position: "absolute", right: "5%" }}>
+        <div style={{ position: "absolute", right: "10%" }}>
           <Search setImages={setImages} />
         </div>
       </Stack>
