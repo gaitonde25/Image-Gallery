@@ -39,6 +39,7 @@ const Popup = ({ open, setOpen, props }) => {
       onClose={() => {
         setOpen(false);
       }}
+      sx={{ height: "80%" }}
       aria-labelledby="modal-modal-title"
       aria-describedby="modal-modal-description"
     >
