@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { TextField } from "@mui/material";
 const SearchBar = ({ setImages }) => {
   const showResult = (e) => {
